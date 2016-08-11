@@ -258,7 +258,6 @@ img.portfolio_image{
 	height: 40px;
 	width: 80%;
 	top: 150px;
-	/*left: 22px;*/
 	background-color: #4aaaa5;
 	z-index: 1;
 	border: 2px;
@@ -438,10 +437,11 @@ img.about_page {
 .box_to_hold_pic{
 	
 	height: auto;
-	width: 70%; 
+	width: 100%; 
 	border: 0px;
 	padding: 0px;
 	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 .box_to_hold_pic:nth-child(even) {
@@ -451,8 +451,11 @@ img.about_page {
 .banner{
 	
 	width: 100%;
-	top: 150px;
+	top: auto;
+	float:left;
+
 	
+
 }
 
 
